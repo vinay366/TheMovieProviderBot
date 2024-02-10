@@ -23,15 +23,15 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/74bbda5f5c0fe7ed42c44.jpg https://telegra.ph/file/6ebe8fb00e0a6042cc333.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/74bbda5f5c0fe7ed42c44.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/85d361ab4cb6511006022.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/86b7b7e2aa7e38f328902.jpg")
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8169830d821.jpg'))
-CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
+MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/f420599a6287bae9a5fca.mp4")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/f1885ed9530b403e585d5.jpg")
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/97070031058cab086ee21.jpg'))
+CODE = (environ.get('CODE', 'https://telegra.ph/file/3da771cb73778ffec8ed8.jpg'))
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'ziplinker.net'))
 STREAM_API = (environ.get('STREAM_API', '77eecd0b6eb8afe91f269d2d774dc73587b0de93'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/HowToOpenLinkHP/69'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/+cLUi1ePHxho2NjBl'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
