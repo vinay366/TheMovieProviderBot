@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/97070031058
 CODE = (environ.get('CODE', 'https://telegra.ph/file/3da771cb73778ffec8ed8.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'ziplinker.net'))
-STREAM_API = (environ.get('STREAM_API', '77eecd0b6eb8afe91f269d2d774dc73587b0de93'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'moneycase.link'))
+STREAM_API = (environ.get('STREAM_API', 'fe36f369c83a9347c9ec46d128e67fa9a7a7eb93'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/+cLUi1ePHxho2NjBl'))
 
 # Admins, Channels & Users
@@ -56,8 +56,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ziplinker.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '77eecd0b6eb8afe91f269d2d774dc73587b0de93')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'moneycase.link')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'fe36f369c83a9347c9ec46d128e67fa9a7a7eb93')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
