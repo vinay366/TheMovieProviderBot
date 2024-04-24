@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/97070031058
 CODE = (environ.get('CODE', 'https://telegra.ph/file/3da771cb73778ffec8ed8.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'moneycase.link'))
-STREAM_API = (environ.get('STREAM_API', 'fe36f369c83a9347c9ec46d128e67fa9a7a7eb93'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'linksly.co'))
+STREAM_API = (environ.get('STREAM_API', '8713c669d49f291774c8e23faf10d4060e924751'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/+cLUi1ePHxho2NjBl'))
 
 # Admins, Channels & Users
